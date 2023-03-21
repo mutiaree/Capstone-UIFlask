@@ -1,23 +1,23 @@
 # Google Play Store Analytics
 <img src="https://raw.githubusercontent.com/fafilia/capstone-UIFlask/master/full_capstone.png">
 ## Introduction
-Projek ini dikembangkan sebagai salah satu capstone project dari Algoritma Academy Data Analytics Specialization. Deliverables yang diharapkan adalah Anda dapat membangun sebuah aplikasi web sederhana (dashboard) menggunakan framework Flask. Capstone ini akan fokus pada tampilan user interface Flask. 
+This project was developed as one of the capstone projects at the Algorithm Academy Data Analytics Specialization. The expected deliverables are that you can build a simple web application (dashboard) using the Flask framework. This project will focus on the appearance of the Flask user interface.
 
 ## Data Summary
-Data yang digunakan pada capstone project ini adalah data hasil scraping dari Google Playstore App. Data Google Playstore App terdiri dari beberapa variabe dengan rincian sebagai berikut:
-- `App` : Nama aplikasi                
-- `Category` : Kategori aplikasi
-- `Rating` : Rating keseluruhan yang diberikan oleh user aplikasi(ketika di scrap)
-- `Reviews` : Jumlah review yang diberikan oleh user aplikasi(ketika di scrap)
-- `Size` : Ukuran aplikasi(ketika di scrap)           
-- `Installs` : Jumlah user yang menginstall/mendownload aplikasi(Ketika di scrap)     
-- `Type` : Tipe aplikasi (berbayar/gratis)       
-- `Price` : Harga aplikasi (ketika di scrap)        
-- `Content Rating` : Kelompok usia aplikasi ini ditargetkan - Children / Mature 21+ / Adult   
-- `Genres` : Genre aplikasi.        
-- `Last Updated` : Tanggal kapan aplikasi terakhir diperbarui di Play Store (ketika discrap) 
-- `Current Ver` : Versi aplikasi saat ini tersedia di Play Store (ketika discrap)   
-- `Android Ver` : Minimum versi Android yang diperlukan (ketika discrap) 
+The data used in this project's capstone is scraped data from the Google Playstore App. The Google Playstore App data consists of several variables with the following details:
+- `App` : Application name
+- `Category` : Application category
+- `Rating` : Overall rating given by application users (when scraped)
+- `Reviews` : The number of reviews given by application users (when scraped)
+- `Size` : Application size(when scraped)
+- `Installs` : The number of users who installed/downloaded the application (when scraped)
+- `Type` : Application type (paid/free)
+- `Price` : App price (when scrap)
+- `Content Rating` : The age group this app is targeted at - Children / Mature 21+ / Adult
+- `Genres` : Application genre.
+- `Last Updated` : Date when the app was last updated on Play Store (when it was scrapped)
+- `Current Ver` : Current version of app available in Play Store (when discrap)
+- `Android Ver` : Minimum Android version required (when scrapped)
 
 ## Dependencies
 - Flask
@@ -25,7 +25,7 @@ Data yang digunakan pada capstone project ini adalah data hasil scraping dari Go
 - Pandas
 - Numpy
 
-Semua modul tersebut dapat Anda install dengan cara :
+You can install all of these dependencies in this way :
 ```
 pip install -r requirements.txt
 ```
